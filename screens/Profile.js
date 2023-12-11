@@ -55,7 +55,7 @@ export default function Profile({navigation}) {
 
         <View style={{flex: 2}}>
           <Text style={{fontSize: 14.5, fontWeight: 'bold', color: Colors.textPrimary}}>Welcome</Text>
-          <Text style={{fontSize: 16.5, fontWeight: 'bold', marginTop: 5, color: Colors.titleColor}}>Mr. Baakir Qara</Text>
+          <Text style={{fontSize: 16.5, fontWeight: 'bold', marginTop: 5, color: Colors.titleColor}}>Hải Đăng</Text>
         </View>
 
         <View style={{flex: 1, alignItems: 'flex-end'}}>
