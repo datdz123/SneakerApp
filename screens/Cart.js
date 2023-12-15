@@ -101,7 +101,7 @@ export default function Cart({navigation}) {
               marginHorizontal: 0,
               marginVertical: 20,
               borderRadius: 15
-              }} onPress={() => navigation.navigate("Checkout")}>
+              }} onPress={() => navigation.navigate("Checkout",{totalPrice})}>
               <Text style={{color: "#fff"}}>Checkout</Text>
             </TouchableOpacity>
         </View>

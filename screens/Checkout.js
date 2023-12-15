@@ -6,7 +6,8 @@ import Colors from "../utilities/Colors";
 
 
 
-export default function Checkout({navigation}) {
+export default function Checkout({route,navigation}) {
+  const { totalPrice } = route.params;
   const [brand, setBrand] = useState("Nike");   // state to handle which brand's shoes are diplayed
   const pds = [
     require("../assets/product-images/test/pd-1.png"),
@@ -85,7 +86,7 @@ export default function Checkout({navigation}) {
         <Text style={{fontSize: 17, fontWeight: 'bold', color: Colors.titleColor, flex: 1}}>Total</Text>
         <View>
           <Text style={{fontSize: 17, fontWeight: 'bold', color: Colors.titleColor, flex: 1,}}>
-            $000<Text style={{fontSize: 15, fontWeight: 'bold', color: Colors.titleColor, flex: 1,}}>.00</Text>
+            {totalPrice}<Text style={{fontSize: 15, fontWeight: 'bold', color: Colors.titleColor, flex: 1,}}>.00</Text>
           </Text>
         </View>
       </View>

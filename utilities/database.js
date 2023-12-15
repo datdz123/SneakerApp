@@ -3,19 +3,19 @@
 
 const Products =[
     // Nike
-    {name: "Air Zoom Pegasus 38", price: "130", type: "Nike", images:[
+    {name: "Pizza cỡ lớn", price: "130", type: "Pizza", images:[
         require("../assets/product-images/nike/air-zoom-pegasus-38/air-zoom-pegasus(1).png"),
         require("../assets/product-images/nike/air-zoom-pegasus-38/air-zoom-pegasus(2).png"),
         require("../assets/product-images/nike/air-zoom-pegasus-38/air-zoom-pegasus(3).png")
     ]},
 
-    {name: "Air Jordan 3 Retro", price: "155", type: "Nike", images:[
+    {name: "Air Jordan 3 Retro", price: "155", type: "Chicken", images:[
         require("../assets/product-images/nike/air-jordan-retro-3/air-jordan-retro-3(1).png"),
         require("../assets/product-images/nike/air-jordan-retro-3/air-jordan-retro-3(2).png"),
         require("../assets/product-images/nike/air-jordan-retro-3/air-jordan-retro-3(1).png")
     ]},
 
-    {name: "Lebron Witness 6", price: "145", type: "Nike", images:[
+    {name: "Lebron Witness 6", price: "145", type: "Pizza", images:[
         require("../assets/product-images/nike/lebron-witness-6/lebron-witness-6(1).png"),
         require("../assets/product-images/nike/lebron-witness-6/lebron-witness-6(2).png"),
         require("../assets/product-images/nike/lebron-witness-6/lebron-witness-6(3).png")

@@ -62,7 +62,7 @@ export default function Home({navigation}) {
       </View>
 
       {/* Product listings based on categories */}
-      <ProductList values={["Nike", "Puma", "Adidas", "New Balance"]} selectedBrand={brand} setSelectedBrand={setBrand} navigation={navigation} products={Products}/>
+      <ProductList values={["Pizza", "Chicken", "Adidas", "New Balance"]} selectedBrand={brand} setSelectedBrand={setBrand} navigation={navigation} products={Products}/>
 
     </SafeAreaView>
   );

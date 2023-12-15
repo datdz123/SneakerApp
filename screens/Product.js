@@ -10,8 +10,8 @@ import cartItems from './CartItems';
 
 
 export default function Product({route, navigation}) {
-  const [modalVisibility, changeModalVisibility] = useState(false); // state to handle modal visibility
-  const [currentShot, selectShot] = useState(0);   // state to handle which brand's shoes are diplayed
+  const [modalVisibility, changeModalVisibility] = useState(false); 
+  const [currentShot, selectShot] = useState(0);   
 
   // data from home screen
   const {index} = route.params;
@@ -71,7 +71,7 @@ export default function Product({route, navigation}) {
               </View>
           </View>
 
-          {/* Handles various product shots */}
+          
           <ProductShots selectedShot={currentShot} selectShot={selectShot} navigation={navigation} shots={pd_shots}/>
       </View>
       
@@ -107,7 +107,7 @@ export default function Product({route, navigation}) {
 
         {/* Product Sizes */}
         <View style={{marginTop: 20}}>
-          <View style={{flexDirection: 'row', alignItems: 'center', marginBottom: 10}}>
+          {/* <View style={{flexDirection: 'row', alignItems: 'center', marginBottom: 10}}>
             <Text style={{color: Colors.titleColor, fontWeight:'bold', fontSize: 18, flex: 1}}>Size</Text>
             
             <View style={{flex: 1, }}>
@@ -118,10 +118,10 @@ export default function Product({route, navigation}) {
               </View>
             </View>
 
-          </View>
+          </View> */}
 
         
-          <View style={{flexDirection: 'row'}}>
+          {/* <View style={{flexDirection: 'row'}}>
             <TouchableOpacity style={styles.sizes}>
               <Text>40</Text>
             </TouchableOpacity>
@@ -134,7 +134,7 @@ export default function Product({route, navigation}) {
             <TouchableOpacity style={styles.sizes}>
               <Text>43</Text>
             </TouchableOpacity>
-          </View>
+          </View> */}
 
         </View>
 
